@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const italia = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Pizza Napoletana',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags: 'Italian | 450 g',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Pizza al Taglio',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: 'Italian | 450 g',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Pizza Siciliana',
     price: '$44',
-    tags: 'FR | 750 ml',
+    tags: 'Italian | 450 g',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Pizza Gourmet',
     price: '$31',
-    tags: 'CA | 750 ml',
+    tags: 'Italian | 450 g',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Pizza Romana Tonda',
     price: '$26',
-    tags: 'IE | 750 ml',
+    tags: 'Italian | 450 g',
   },
 ];
 
-const cocktails = [
+const Speicial = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'pizza new-yorkaise',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'NY | 450 g',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Neapolitan pizza",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'NY | 450 g',
   },
   {
-    title: 'Daiquiri',
+    title: 'Californian pizza',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'NY | 450 g',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Chicago deep-dish',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'NY | 450 g',
   },
   {
-    title: 'Negroni',
+    title: 'Greek pizza',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'NY | 450 g',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { italia, Speicial, awards };

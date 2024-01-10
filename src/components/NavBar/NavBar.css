@@ -103,8 +103,7 @@
         }
         
     }
-    @media screen and (max-width:650px){
-        
+    @media screen and (max-width: 650px) {
         .app__navbar{
             padding: 1rem;
         }
@@ -112,7 +111,6 @@
             display: none;
         }
         .app__navbar-logo img{
-            width: 70px;       
+            width: 70px;
         }
-
     }

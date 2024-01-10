@@ -1,0 +1,38 @@
+.app__menu{
+    flex-direction: column;
+    background-color: var( --background);
+}
+.app__menu-title{
+   margin-bottom: 2rem;
+    text-align: center;
+}
+.app__menu-menu{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: row;
+    margin: 2rem 0;
+
+}
+.app__menu_menu_heading{
+    font-family: var(--font-base);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 58.5px;
+    font-size: 45px;
+    color: var(--accent);
+}
+.app__menu_menu_italia,.app__menu_menu_special{
+flex: 1;
+width: 100%;
+flex-direction: column;
+}
+.app__menu_menu_img{
+    width: 500px;
+    margin :0 2rem;
+}
+.app__menu_menu_img img{
+    width: 100%;
+height: auto;
+}

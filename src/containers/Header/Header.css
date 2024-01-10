@@ -1,0 +1,20 @@
+.app__header{
+    background-color: var(--background);
+}
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__wrapper_img img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+}

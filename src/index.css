@@ -4,11 +4,11 @@
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
   
- --text: #070907;
---background: #f6f9f7;
---primary: #6f9579;
---secondary: #c4b1bd;
---accent: #b19c95;
+  --text: #0f0302;
+  --background: #fef7f6;
+  --primary: #de443a;
+  --secondary: #ead181;
+  --accent: #e5de5f;
 }
 
 * {

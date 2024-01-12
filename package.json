@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://houssemdaas.github.io/Fomumamele-Restaurant/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

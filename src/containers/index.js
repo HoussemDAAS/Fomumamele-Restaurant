@@ -7,5 +7,4 @@ import Intro from './Intro/Intro';
 import Menu from './Menu/Menu';
 import Laurels from './Laurels/Laurels';
 import Chef from './Chef/Chef';
-import Login from './Login/Login';
-export { AboutUs, Findus, Footer, Gallery, Header, Intro, Menu, Laurels, Chef, Login };
+export { AboutUs, Findus, Footer, Gallery, Header, Intro, Menu, Laurels, Chef };

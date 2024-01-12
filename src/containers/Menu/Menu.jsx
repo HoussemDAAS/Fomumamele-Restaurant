@@ -1,6 +1,6 @@
 import React from 'react'
 import  './Menu.css'
-import { SubHeading,MeniItem} from '../../components'
+import { SubHeading,MenuItem} from '../../components'
 import { images, data } from '../../constants'
 const Menu = () => {
   return (
@@ -15,7 +15,7 @@ const Menu = () => {
     <p class="app__specialMenu-menu_heading">Special</p>
     <div class="app__specialMenu_menu_items">
       {data.Speicial.map((item, index) => (
-        <MeniItem key={item.title + index} title={item.title} price={item.price} tags={item.tags} />
+        <MenuItem key={item.title + index} title={item.title} price={item.price} tags={item.tags} />
       ))}
     </div>
   </div>
@@ -28,7 +28,7 @@ const Menu = () => {
     <p class="app__specialMenu-menu_heading">Italian Pizza</p>
     <div class="app__specialMenu_menu_items">
       {data.italia.map((item, index) => (
-        <MeniItem key={item.title + index} title={item.title} price={item.price} tags={item.tags} />
+        <MenuItem key={item.title + index} title={item.title} price={item.price} tags={item.tags} />
       ))}
     </div>
   </div>

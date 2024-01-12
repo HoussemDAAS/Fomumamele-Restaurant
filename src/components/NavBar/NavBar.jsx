@@ -3,7 +3,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import{MdOutlineRestaurantMenu} from 'react-icons/md'
 import images from '../../constants/images'
 import './NavBar.css'
-import { Link } from 'react-router-dom';
 const NavBar = () => {
   const [ToggleMenu, setToggleMenu] = React.useState(false)
   return (
@@ -19,7 +18,7 @@ const NavBar = () => {
     <li className='p__opensans'><a href="#contact">Contact</a></li>
    </ul>
    <div className='app__navbar-login'>
-   <Link to="/login" className="p__opensans">Log In / Register</Link>
+<a href="#login" className='p__opensans'>Log In / Register</a>
 <div />
 <a href="/" className='p__opensans'>Book Table</a>
 </div>

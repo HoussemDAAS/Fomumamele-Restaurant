@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Router>
+  
       <div>
         <NavBar />
         <Header />
@@ -20,11 +20,9 @@ function App() {
         <Gallery />
         <Findus />
         <Footer />
-        <Routes>
-          <Route path="/login" element={<Login />} />
-        </Routes>
+    
       </div>
-    </Router>
+  
   );
 }
 
